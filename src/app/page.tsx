@@ -6,18 +6,19 @@ import Experience from "@/components/Experience";
 import HowIThink from "@/components/HowIThink";
 import Chatbot from "@/components/Chatbot";
 import Contact from "@/components/Contact";
+import FadeIn from "@/components/FadeIn";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Hero />
-      <About />
-      <Chatbot />
-      <CaseStudy />
-      <Projects />
-      <Experience />
-      <HowIThink />
-      <Contact />
+      <FadeIn><Hero /></FadeIn>
+      <FadeIn delay={0.1}><About /></FadeIn>
+      <FadeIn delay={0.1}><CaseStudy /></FadeIn>
+      <FadeIn delay={0.1}><Projects /></FadeIn>
+      <FadeIn delay={0.1}><Experience /></FadeIn>
+      <FadeIn delay={0.1}><HowIThink /></FadeIn>
+      <FadeIn delay={0.1}><Chatbot /></FadeIn>
+      <FadeIn delay={0.1}><Contact /></FadeIn>
     </main>
   );
 }

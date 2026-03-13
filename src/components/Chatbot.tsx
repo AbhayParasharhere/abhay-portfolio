@@ -98,9 +98,9 @@ export default function Chatbot() {
   };
 
   return (
-    <section className="max-w-4xl mx-auto px-6 lg:px-12 py-24">
+    <section className="max-w-4xl mx-auto px-6 lg:px-12 py-16">
       <div className="flex items-center gap-4 mb-8">
-        <h2 className="text-3xl font-display text-white">05. Experience Bank</h2>
+        <h2 className="text-3xl font-display text-white">06. Experience Bank</h2>
         <div className="h-px bg-slate-800 flex-grow max-w-xs"></div>
       </div>
 
