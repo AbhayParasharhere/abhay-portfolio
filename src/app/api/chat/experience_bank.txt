@@ -1,0 +1,809 @@
+ABHAY PARASHAR — MASTER EXPERIENCE BANK
+Complete repository of every skill, project, role & talking point • Use this to tailor every application
+
+4.27 / 4.33 GPA
+Best-of-degree calculation (2 lowest electives dropped)
+4 Years Exp.
+2 Canada + 2 India
+3 Co-op Terms
+Input Logic · Charvar · VIU
+6 Projects
+Real products with real users
+
+  1. WORK EXPERIENCE — FULL DETAIL
+Software Engineer — Charvar Networks Canada   |   January 2024 – Present  |  PNP-qualifying role
+Context & Problem
+NACL (non-profit supporting individuals with developmental disabilities, multimillion-dollar org) was running on Microsoft Power Apps. The system had critical limitations: employees couldn't get meaningful analytics, the board couldn't use it for operational decisions, and the UX was creating friction for 300+ daily users. Abhay proposed building a replacement from scratch.
+What Was Built
+	•	Full-stack CRM designed and implemented end-to-end — from initial proposal through architecture, development, user testing, and deployment
+	•	Frontend: Next.js. Backend: Supabase (PostgreSQL + auth + storage + real-time)
+	•	Addressed specific Power Apps pain points identified during discovery with employees
+	•	Analytical and reporting dashboards built to board specifications — enabling data-driven decisions previously requiring manual reporting
+	•	Conducted multiple rounds of user testing with NACL employees and board members throughout development
+	•	Maintained 95% project satisfaction rate across all stakeholders
+	•	Multi-tenant SaaS architecture (powercompasspro.com) — designed to serve multiple organizations each with 200+ employees; launching July 2026
+	•	Row-level security (RLS) policies and security infrastructure using PostgreSQL RLS and Supabase access policies for full multi-tenant data isolation
+	•	Stripe payment processing integration with concurrency handling; Novu for notification infrastructure; migration infrastructure for schema evolution
+	•	Playwright automated testing infrastructure; GitHub Actions CI/CD pipelines; AI-driven tooling for automated test generation and workflow efficiency
+Soft Skills Demonstrated
+	•	Internal sales / stakeholder buy-in — proposed the project and got it approved
+	•	Product ownership — drove full lifecycle from problem identification to shipped product
+	•	User research — ran testing sessions, synthesised feedback, iterated
+	•	Communication across levels — employees, management, board
+Numbers to Use
+	•	Multi-tenant SaaS serving multiple organizations, 200+ employees each (powercompasspro.com, launching July 2026)
+	•	95% satisfaction rate
+	•	Replaced a system used by a multimillion-dollar organisation
+	•	0→1 build — no existing codebase to inherit
+Resume Bullets (ready to paste — pick 3–4 per application)
+	•	Proposed and led ground-up replacement of Microsoft Power Apps CRM for NACL as sole developer; designed multi-tenant SaaS architecture (powercompasspro.com) serving multiple organizations, each with 200+ employees — launching July 2026
+	•	Built with Next.js + Supabase; designed schema, role-based auth, RLS security policies, real-time features, migration infrastructure, and board-level analytics dashboard
+	•	Ran structured user testing rounds with employees and board; maintained 95% satisfaction through iterative delivery
+	•	Replaced manual reporting workflows — board now makes operational decisions directly from in-app analytics
+	•	Owned full product lifecycle: problem identification → proposal → build → testing (Playwright) → CI/CD (GitHub Actions) → Stripe integration → deployment → feedback loop
+
+
+
+Full Stack Developer — Input Logic Canada   |   May 2023 – September 2023  |  Co-op Placement I
+Context & Problem
+Input Logic is a software company with 30+ professionals. Abhay was given a solo R&D project: error diagrams (complex structured text) needed to be parsed algorithmically and converted into interactive visual representations. No existing solution existed — he had to design the rules from scratch using mathematical logic.
+What Was Built
+	•	Solo project: parser that reads structured error diagram text and applies complex mathematical rules to produce accurate visual output
+	•	Frontend: Next.js. Backend: Django/DRF (Python) with REST API
+	•	Applied geometric and algorithmic rules to interpret diagram syntax and render it correctly
+	•	Reduced project setup time by 20% for teams that previously built diagrams manually
+	•	Achieved 90% satisfactory rating on delivery
+	•	Also contributed to multiple client projects in parallel, meeting tight deadlines
+Soft Skills Demonstrated
+	•	Solo ownership of a research-heavy technical problem with no prior template
+	•	Cross-stack proficiency (JS frontend + Python backend in a single project)
+	•	Working in a professional team of 30+ with security specialists and app developers
+	•	Technical documentation and code quality under real client deadlines
+Numbers to Use
+	•	20% reduction in project setup time
+	•	90% satisfactory rating
+	•	Team of 30+ professionals
+	•	Solo R&D project delivered end-to-end
+Resume Bullets (ready to paste)
+	•	Engineered solo R&D project to algorithmically parse complex error diagram text into visual representations using advanced mathematical rules — Next.js + Django/DRF
+	•	Reduced diagram project setup time by 20% and achieved 90% satisfaction rating on delivery
+	•	Collaborated with 30+ professionals (app developers, security specialists) across multiple client projects under tight deadlines
+
+
+
+CSCI Help Desk Assistant — Vancouver Island University   |   Sep 2023 – May 2024
+What Was Done
+	•	One-on-one technical support to CS students on their coursework and projects
+	•	Created and maintained technical documentation and help guides for common CS challenges
+	•	Explained complex topics: Data Structures, Algorithms, OOP, debugging
+Resume Bullets
+	•	Provided technical mentorship to undergraduate CS students; created reference documentation adopted department-wide
+	•	Explained Data Structures, Algorithms, and OOP concepts to students across multiple year levels
+
+
+
+Google Developer Student Club Lead — Vancouver Island University   |   May 2022 – December 2022
+What Was Done
+	•	Led team of 12 students for Google Solution Challenger Competition
+	•	Competitive analysis, feasibility reports, scope definition
+	•	Project deadline management and responsibility allocation
+	•	Collaborated with Google industry experts to host technology events
+	•	Hosted Git & Version Control workshops at VIU
+	•	Invited to annual Google Summit for student leads across North America — recognition for outstanding performance
+Resume Bullets
+	•	Led 12-person student team in Google Solution Challenger Competition — managed scope, deadlines, and cross-functional coordination
+	•	Hosted Git/Version Control workshops at VIU; collaborated with Google engineers for industry events
+	•	Selected to attend Google's annual North America student leads summit for outstanding chapter performance
+
+
+
+Leads & Technical Manager — A&A Exports India (Family Business)   |   January 2018 – September 2020
+Context
+A&A Exports is a manufacturing and export business in India (mother's company, still actively involved — currently building an agent channel for them). Role combined technical setup, business development, and client proposal writing.
+What Was Done
+	•	Managed the company's leads/CRM platform — targeted potential clients, tracked pipeline
+	•	Set up technical environments for employees: software systems, training, ongoing support
+	•	Participated in strategic planning meetings — contributed to business strategy
+	•	Wrote client proposals: technical specifications, project timelines, cost estimates
+Numbers to Use
+	•	20% increase in new business leads within first year
+	•	15% revenue increase over two years from strategy contributions
+	•	70% success rate on client proposals written
+Resume Bullets
+	•	Managed leads platform and business development pipeline — drove 20% increase in new client acquisition in year one
+	•	Wrote technical proposals (specs, timelines, cost estimates) with 70% win rate
+	•	Contributed to strategic planning that produced 15% revenue growth over two years
+	•	Set up and maintained technical environments for all employees; provided ongoing training
+
+
+
+Technical Lead (Active) — A&A Exports India   |   2024 – Present  |  Building AI agent channel for family manufacturing business
+Context & Problem
+A&A Exports is a manufacturing and export business. Abhay has re-engaged in a more advanced technical capacity — designing and building an AI-powered agent channel to automate how the business acquires and handles clients. Active, ongoing, self-initiated work with real business stakes.
+What Is Being Built
+	•	AI agent channel — automating parts of the client acquisition and communication pipeline for a real export/manufacturing business
+	•	End-to-end ownership: problem scoping, architecture, implementation, and iteration with real business stakeholders
+	•	Combines Next.js + Supabase + AI/agent tooling with deep domain knowledge from prior role at the same business
+	•	Product thinking applied throughout: identifying which workflows benefit most from automation vs. human handling
+Why This Matters for Applications
+	•	Shows active self-initiated building outside of employment — strongest signal of entrepreneurial drive
+	•	AI/agent skills are increasingly in-demand in 2025/2026 — rare for a new grad to have real, deployed examples
+	•	Rare combo: full-stack CS skills + 6+ years manufacturing/export domain knowledge — use for fintech, ops-tech, startup roles
+	•	Tells a compelling long-arc story: started in business ops 2018, left to get CS degree, came back to actually build the tools
+Resume Bullets (use for startup / product / AI-adjacent roles)
+	•	Currently building AI agent channel for A&A Exports (family manufacturing/export business) — sole owner from problem scoping to deployment
+	•	Applying Next.js + Supabase + AI tooling to automate client acquisition pipeline for a real operating business
+	•	Combining 6+ years of domain knowledge in export/manufacturing with full-stack engineering to replace previously manual workflows
+Interview Talking Point
+Lead with the business problem (what was breaking), then your architecture choice, then what’s live and what’s next. This is your strongest entrepreneurial story — real stakes, real users, self-initiated.
+
+
+  2. PROJECTS — FULL DETAIL
+Study Buddy   |   Creator  |  JavaScript · HTML · CSS · Bootstrap · Firebase
+What It Does
+Visual interface to help university students manage scheduling and academic tasks. Full authentication, real-time data, and a clean UI designed for student workflows.
+Technical Details
+	•	Firebase: user authentication + real-time database
+	•	Git workflow management for team version control
+	•	Full requirements and design documentation written
+	•	User testing led during testing phase — fed back into UI improvements
+Numbers
+	•	30% increase in overall user satisfaction from UI improvements driven by testing (from cover letter)
+Resume Bullets
+	•	Built Study Buddy — student scheduling app in JavaScript/Firebase; led user testing phase producing 30% satisfaction improvement
+
+
+
+Weather Gallery   |   Creator  |  Python · Tkinter · Open Weather API · PIL
+What It Does
+Desktop app to monitor weather, climate status, and pollutant levels for any user-specified region. Includes a customisable image gallery built with Python Image Library.
+Technical Details
+	•	Integrated Open Weather API for live climate and pollution data
+	•	Python Image Library (PIL) for image gallery and UI customisation
+	•	Built entirely solo in Python with Tkinter GUI
+Numbers
+	•	20% improvement in user ratings from image gallery feature
+Resume Bullets
+	•	Built Weather Gallery in Python/Tkinter — live climate + pollutant monitoring; image gallery feature drove 20% user rating improvement
+
+
+
+Bankist   |   Creator  |  JavaScript · HTML · CSS · Bootstrap
+What It Does
+Web application simulating banking: loan requests, money transfers between accounts, transaction history. Demonstrates DOM manipulation, state management, and UI logic in vanilla JS.
+Resume Bullets
+	•	Built Bankist banking simulator in vanilla JavaScript — loan requests, transfers, transaction history; demonstrates DOM state management without frameworks
+
+
+
+ASCII Adventure Game   |   Creator  |  C++ · OOP · Linux
+What It Does
+Text-based adventure game with ASCII animation, optimised for Linux terminals. Applied geometry and trigonometry for movement, collision detection, and environment design.
+Technical Details
+	•	C++ with full OOP design
+	•	Geometry/trigonometry applied for collision detection and coordinate-based movement
+	•	Optimised for Linux terminal rendering
+	•	Collaborative — worked with developers and artists
+Resume Bullets
+	•	Developed ASCII adventure game in C++/OOP with geometry-based collision detection; optimised for Linux terminal
+
+
+
+VIU Closed Social Media App   |   Personal Project  |  NodeJS · React · Flutter · MongoDB
+What It Does
+Closed social media platform built specifically for VIU students. Mentioned in 2022 cover letter as an active learning project — used to learn Node, React, Flutter, MongoDB simultaneously.
+Notes
+	•	Demonstrates rapid multi-stack learning — picked up 4 new technologies concurrently
+	•	Mention as evidence of self-directed learning in cover letters and interviews
+
+Training Portal   |   Client Project  |  Next.js · Django REST Framework · JWT · AWS EC2 · Vercel · PostgreSQL
+What It Does
+Full-stack broker training and client management platform built as paid client work for Punjab Insurance Agency Inc. (Canada). Brokers log in, complete training modules, and manage client data. The system is live in production.
+Technical Details
+	•	Frontend: Next.js deployed on Vercel (live: training-portal-pi.vercel.app)
+	•	Backend: Django REST Framework on AWS EC2; JWT authentication
+	•	PostgreSQL database; separate frontend and backend repos (GitHub: Training_Portal_PI + backend)
+	•	Delivered end-to-end for a real Canadian insurance brokerage
+Resume Bullets
+	•	Built full-stack broker training + client management platform for Punjab Insurance Agency Inc. (Canada) — Next.js (Vercel) + Django REST + JWT + AWS EC2; live in production
+
+Poster Maker (Frontend + Backend)   |   Client Project  |  React · Vite · Django REST · Docker · nginx · GitHub Actions
+What It Does
+Branded social media poster generator built as paid client work for Punjab Insurance Agency Inc. (Canada). Insurance advisors log in and generate customized promotional posters with their branding. Frontend proxies to the client’s existing backend (beautyresort.in). Separate frontend and backend repos.
+Technical Details
+	•	Frontend: React 18 + Vite 4, plain JavaScript, deployed on Netlify; Vite proxy to client backend
+	•	Backend: Python/Django 3.2 + DRF 3.12; Docker + nginx + uWSGI for production deployment
+	•	GitHub Actions CI pipeline on the backend repo
+	•	GitHub repos: Poster-maker-frontend + Poster-Maker-Backend (both public)
+Resume Bullets
+	•	Built branded poster generator for Punjab Insurance Agency Inc. (Canada) — React + Vite frontend (Netlify), Django REST + Docker + nginx backend (GitHub Actions CI)
+
+A&A Exports Marketing Website   |   Client Project  |  Next.js · Firebase · Vercel
+What It Does
+Marketing website for A&A Exports — a 20+ year fashion accessories manufacturer and exporter that has supplied brands including Disney, Lee Cooper, and others. Built to modernize their web presence and showcase their catalogue to B2B clients. Live and deployed on Vercel.
+Technical Details
+	•	Next.js frontend deployed on Vercel; Firebase backend for data and auth
+	•	Client: real manufacturing/export business — 20+ year operating history, international brand partnerships (Disney, Lee Cooper)
+	•	GitHub repo: aa-exports-case-study (public, with 7 screenshots)
+Resume Bullets
+	•	Built marketing website for A&A Exports (20+ year fashion accessories exporter, Disney and Lee Cooper brand supplier) — Next.js + Firebase, deployed on Vercel
+
+Event Management API   |   Personal Project  |  Django REST · PostgreSQL · Docker · GitHub Actions · Token Auth
+What It Does
+Production-grade REST API for event and attendee management. Custom user model, token-based authentication, full CRUD, and a complete DevOps setup with Docker + PostgreSQL + GitHub Actions CI. Demonstrates backend-only engineering discipline — no frontend, just a clean API.
+Technical Details
+	•	Django REST Framework; custom user model with token authentication
+	•	Docker containerized; PostgreSQL database; GitHub Actions CI/CD pipeline
+	•	GitHub repo: Event-Management-API (public)
+Resume Bullets
+	•	Built production-grade Event Management REST API — Django REST, custom user model, token auth, Docker + PostgreSQL, GitHub Actions CI; demonstrates standalone backend engineering
+
+TuneTraveller   |   Academic / Collaborative  |  Python · scikit-learn · NLP · Topic Modeling · Music Lyrics
+What It Does
+Machine learning project using NLP and topic modeling to classify and analyze music lyrics. Collaborative project (3 contributors). Demonstrates applied ML and data science skills outside of coursework.
+Technical Details
+	•	Python, scikit-learn, NLP techniques, topic modeling, music lyrics classification
+	•	3 collaborators; GitHub repo: TuneTraveller (public) — not pinned (academic project, lower visibility)
+Notes
+	•	Mention for ML/data-adjacent roles — pairs with CSCI 478 Advanced Data Science (A) on transcript
+	•	Resume bullet: Applied NLP and topic modeling in Python (scikit-learn) to classify music lyrics by theme — collaborative ML project
+
+
+  3. TECHNICAL SKILLS — PROFICIENCY MAP
+
+CATEGORY
+TECHNOLOGIES / TOOLS
+LEVEL
+Frontend
+Next.js, React, HTML5, CSS3, Bootstrap, Tailwind
+Expert
+Backend
+Supabase (PostgreSQL, RLS, auth, real-time, storage), Django/DRF (Python), Node.js, REST APIs, Firebase, Novu, Stripe
+Expert
+Languages
+JavaScript / TypeScript, Python, C, C++, SQL
+Expert
+Databases
+Supabase (PostgreSQL), Firebase (NoSQL), MySQL, MongoDB
+Strong
+Version Control
+Git, GitHub (branching, PRs, workflow management), GitHub Actions (CI/CD), Playwright (automated testing), Vercel, Docker
+Strong
+Low-Level
+C++, ARM Assembly, Verilog, Linux/terminal, C#
+Strong
+Other Tools
+Unity Game Engine, Tkinter, PIL
+Familiar
+Networking
+TCP/IP, UDP, SSL/TLS, Systems & Networks fundamentals
+Familiar
+Data Science
+Advanced Topics in Data Science (CSCI 478) — A grade
+Strong
+
+  4. SOFT SKILLS — WITH EVIDENCE
+
+SOFT SKILL
+EVIDENCE FROM YOUR EXPERIENCE
+Product Ownership (0→1)
+NACL CRM — proposed, architected, built solo. Multi-tenant SaaS launching July 2026. Full ownership from proposal to deployment.
+Stakeholder Management
+NACL: aligned employees, management, and board simultaneously across all stages
+User Research & Testing
+NACL (95% satisfaction), Study Buddy (30% satisfaction improvement), Input Logic (90% rating)
+Cross-functional Communication
+Led GDSC team of 12, worked in 30+ person Input Logic team, board-level communication at NACL
+Technical Documentation
+VIU Help Desk docs, NACL project docs, Input Logic project, Study Buddy design docs
+Self-Directed Learning
+Picked up Next.js/Supabase for NACL, Next.js/Django for Input Logic, 4 stacks simultaneously for VIU project
+Business Development
+A&A: 70% proposal win rate, 20% lead growth, 15% revenue contribution
+Leadership
+GDSC Lead (12 people), Google Summit selection, A&A technical environment ownership
+Problem Solving
+Error diagram parser — no existing solution, designed mathematical rules from scratch
+Deadline Management
+Multiple client projects at Input Logic under tight deadlines, A&A proposal timelines
+Strategic Thinking
+Proposed NACL CRM replacement after identifying Power Apps limitations (internal sales)
+Writing & Communication
+A+ in Business & Technical Writing, proposal writing at A&A, technical docs at VIU
+
+
+  5. ACADEMIC RECORD — FULL TRANSCRIPT SUMMARY
+
+Institution: Vancouver Island University, Nanaimo BC  |  Degree: BSc Major in Computer Science with Co-op
+Degree GPA (reported): 4.27 / 4.33  |  Calculated by dropping 2 lowest non-major electives (MARK 160 and TRMT 333, both B+) from 124 total graded credits
+Full cumulative GPA (all courses): 4.23 / 4.33  |  All core CSCI and MATH courses are A or A+. The 2 B+ grades were recreational/marketing electives taken outside the major.
+Linear Algebra: in progress current term (expected A)  |  Graduating: March 2026  |  3 Co-op placements completed
+
+CODE
+COURSE NAME
+GRADE
+WHY IT MATTERS FOR JOB APPS
+CSCI 160/161
+Computer Science I & II
+A/A+
+Core CS fundamentals — mention in SWE applications
+CSCI 162
+Topics in Computer Science
+A+
+Advanced early CS — signals strong foundation
+CSCI 260
+Data Structures
+A+
+Critical for any technical interview — mention proactively
+CSCI 265
+Software Engineering
+A+
+SDLC, agile, requirements — relevant to product/PM roles
+CSCI 310
+Human-Computer Interaction
+A+
+UX thinking — differentiator for product-focused roles
+CSCI 311
+Web Programming
+A
+Modern web stack coursework — pairs with Next.js project experience
+CSCI 320
+Foundations of CS
+A+
+Theory — relevant for companies that ask about CS fundamentals
+CSCI 330
+Programming Languages
+A+
+Shows breadth — mention when multi-language role asked
+CSCI 331
+OOP Software Development
+A+
+Fundamental — mention in all SWE applications
+CSCI 355
+Digital Logic & Architecture
+A+
+Systems-level — relevant for embedded/backend roles
+CSCI 360
+Operating Systems
+A+
+Systems knowledge — backend and infrastructure roles
+CSCI 370
+Database Systems
+A+
+Directly relevant — pairs with Supabase/SQL experience
+CSCI 460
+Networks and Communications
+A+
+Strong signal for backend/infra roles — pairs with CSCI 251
+CSCI 478
+Advanced Topics in Data Science
+A
+Completed with strong grade — mention for ML/data-adjacent roles
+CSCI 485
+Advanced General Topics in CS
+A+
+Breadth of CS knowledge — use for senior or research-adjacent roles
+MATH 121/122
+Calculus I & II
+A+
+Algorithmic reasoning — mention for ML/DS adjacent roles
+MATH 123
+Logic and Foundations
+A+
+Formal reasoning — pairs well with algorithms and CS theory
+MATH 223
+Discrete & Combinatorial Math
+A+
+Directly feeds CS theory and algorithms
+MATH (Linear Algebra)
+Linear Algebra
+~A
+In progress current term — mention proactively, shows quantitative depth
+ENGL 204
+Business & Technical Writing
+A
+Supports documentation and communication claims
+ECEC 150
+Interpersonal Communication
+A+
+Differentiator — most SWEs skip this; proves soft skills formally
+MGMT 192
+Principles of Management
+A+
+Unique differentiator — most SWEs don’t have this
+QUME 185
+Business Computer Applications
+A+
+Business + tech overlap — relevant for startup and ops-tech roles
+MARK 160
+Introduction to Marketing
+B+
+Dropped from GPA calculation (lowest elective) — still useful to mention for startup/product roles
+TRMT 333
+Leisure Lifestyles
+B+
+Dropped from GPA calculation (lowest elective) — not relevant to CS applications
+ECON 100
+Intro to Economics
+A+
+Business thinking — useful context for fintech or B2B startup roles
+CSCI 115
+Intro to Web Page Development
+A+
+Foundation of current web expertise
+CSCI 251
+Systems and Networks
+A+
+Complements CSCI 460 — strong networking fundamentals
+CSCI 261
+Computer Architecture & Assembly
+A+
+Low-level systems knowledge — differentiator for systems/backend roles
+CSCI 307-309-408
+Co-op Placements (3 terms)
+CR
+2 years Canadian professional work experience on transcript
+
+
+  6. ACCOMPLISHMENTS & AWARDS
+
+	•	Dean's Honour List — VIU, 2019–2020 and 2020–2021
+	•	Regional VIU Scholarship (Indian Region) — awarded for academic excellence
+	•	Merit Certificate, Central Board of Secondary Education (India) — academic excellence
+	•	Google Summit Invitation — selected among all North American GDSC leads for outstanding chapter performance (2022)
+	•	GPA: 4.27 / 4.33 (best-of-degree, 2 lowest non-major electives dropped per program policy) — all core CSCI/MATH courses A or A+
+	•	Full cumulative GPA: 4.23 / 4.33 — only two B+ grades across entire degree, both recreational electives (Marketing, Leisure Studies) unrelated to CS major
+	•	CSCI 478 Advanced Data Science — A (completed)
+	•	CSCI 460 Networks and Communications — A+ (completed)
+	•	CSCI 311 Web Programming — A (completed)
+	•	3 Co-op placements completed (rare for international students — demonstrates employer validation)
+	•	95% stakeholder satisfaction on NACL CRM — verifiable, named client
+
+  7. PRE-BUILT STAR INTERVIEW STORIES
+
+These are ready for behavioural interviews. Adapt the language to match the company's tone.
+
+STAR #1: Most Impactful Technical Project   |   Use for: 'Tell me about a project you built'
+SITUATION
+NACL (300+ employee non-profit) was using Microsoft Power Apps as their CRM. The system had critical limitations: no meaningful analytics for the board, poor UX, and wasn't scalable.
+TASK
+Propose and build a full replacement CRM from scratch as the sole developer — design a multi-tenant SaaS serving multiple organizations, each with 200+ employees (powercompasspro.com, launching July 2026).
+ACTION
+Proposed the project internally, got buy-in, then designed the full system: Next.js frontend, Supabase backend with RLS security policies and multi-tenant architecture, analytics dashboard for board requirements, Stripe payment integration, Novu notifications, Playwright testing infrastructure, and GitHub Actions CI/CD. Ran multiple user testing rounds, iterated on feedback, and leveraged AI-driven tooling to accelerate development.
+RESULT
+95% satisfaction rate across all user groups through iterative testing. Board now uses in-app analytics for operational decisions. Multi-tenant SaaS architecture complete, launching July 2026 — replacing a multimillion-dollar organisation's core operational tool with a system built to scale across multiple client organisations.
+
+STAR #2: Solving a Problem No One Had Solved Before   |   Use for: 'Tell me about a time you faced an ambiguous problem'
+SITUATION
+At Input Logic, error diagrams (complex structured text) needed to be converted into accurate visual representations. No existing tool or pattern existed for this — the parsing rules had to be invented.
+TASK
+Design and build a parser that could read the diagram syntax and apply mathematical rules to produce correct visual output, solo, on a real client timeline.
+ACTION
+Broke the problem into its mathematical primitives — analysed the diagram grammar, derived geometric rules for rendering, then implemented the parser in Next.js (frontend) + Django/DRF (backend). Built iteratively and tested against real diagram examples.
+RESULT
+Delivered 90% satisfactory rating. Reduced project setup time by 20% for teams that previously built diagrams manually.
+
+STAR #3: Leadership Under Pressure   |   Use for: 'Tell me about a time you led a team'
+SITUATION
+As GDSC Lead at VIU, leading 12 students for the Google Solution Challenger Competition — a global competition with real deadlines and a Google audience.
+TASK
+Deliver a working, competitive project while coordinating a cross-functional team of CS students with varying skill levels, in parallel with full-time studies.
+ACTION
+Ran competitive analysis and feasibility review upfront to scope the project realistically. Set clear deadlines and role assignments. Collaborated with Google industry experts. Ran workshops to upskill team members where needed.
+RESULT
+Project delivered on time and to competition standard. Performance recognised by Google — invited to attend the annual Google Summit for student leads across North America.
+
+STAR #4: Business Impact Beyond Technical Work   |   Use for: 'Tell me about a non-technical contribution'  |  Great for startups
+SITUATION
+At A&A Exports, the company needed to grow its client base and modernise its technical operations. As Leads & Technical Manager, the role spanned both business development and technical setup.
+TASK
+Grow the pipeline, improve proposal quality, and set up a reliable technical environment for all employees.
+ACTION
+Managed and optimised the leads platform for targeting. Wrote proposals covering technical specs, timelines, and cost estimates. Set up technical environments and trained staff. Participated in strategic planning meetings.
+RESULT
+20% increase in new business leads in year one. 70% proposal win rate. Contributed to 15% revenue growth over two years.
+
+  8. HOW TO USE THIS BANK FOR EVERY APPLICATION
+
+Step 1 — Read the job description. Identify 3–5 keywords or requirements they emphasise most.
+Step 2 — Find matching bullets in Sections 1–3 of this document. Prioritise those that have metrics.
+Step 3 — Swap in their exact language. If they say 'full-stack engineer', your headline uses that. If they say 'data pipelines', lead with your Supabase and database work.
+Step 4 — Pull a STAR story from Section 7 that matches their likely interview question style.
+Step 5 — Cover letter: first paragraph is about their problem. Second paragraph is your NACL or Input Logic story mapped to their problem. Third is 2–3 bullet proof points. Fourth is the ask.
+
+One rule: never copy-paste a bullet without checking the metric still fits. If you're applying for a backend role, lead with Supabase/Django/database bullets. If product/startup, lead with CRM ownership + user testing + 95% satisfaction.
+
+
+  9. KEYWORDS CHEAT SHEET — BY ROLE TYPE
+
+For each role type: paste these keywords into your resume summary, swap in the matching bullets from Section 1, and mirror the posting's exact language.
+
+TYPE A — Full-Stack / Product Engineer   |   Startups, Series A, product-led companies
+Lead With
+	•	NACL CRM (multi-tenant SaaS, 200+ users/org, 95% satisfaction, analytics dashboard, sole dev, powercompasspro.com)
+	•	A&A agent channel (AI integration, real business, self-initiated)
+	•	Input Logic error parser (algorithmic thinking, solo R&D, cross-stack)
+Keywords to Mirror in Resume & Cover Letter
+	•	Full-stack, end-to-end, product ownership, shipped, deployed, user testing, feedback loop, iteration
+	•	Next.js, Supabase, React, PostgreSQL, REST API, TypeScript, Playwright, GitHub Actions, Stripe, Novu, multi-tenant, RLS
+	•	Stakeholder alignment, requirements gathering, product lifecycle, 0-to-1
+	•	Scalable, performant, real-world, production, live users
+Summary to Use (swap into Highlights section)
+Full-stack engineer with 2 years of Canadian production experience building 0-to-1 products from architecture through deployment. Designed and building a multi-tenant SaaS CRM (Next.js + Supabase + RLS) for multiple organisations, 200+ users each, launching July 2026 — 95% satisfaction through iterative delivery. Comfortable owning the full product lifecycle including DevOps, security infrastructure, and payment integration.
+
+
+
+TYPE B — Backend / Systems Engineer   |   Mid-size tech, infrastructure, API-heavy roles
+Lead With
+	•	Supabase schema design, RLS policies, auth, real-time, PostgreSQL, migration infrastructure (NACL CRM)
+	•	Django/DRF REST API (Input Logic)
+	•	CSCI 360 Operating Systems (A+), CSCI 460 Networks (A+), CSCI 261 Architecture (A+)
+	•	CSCI 251 Systems & Networks, MATH 223 Discrete Math, CSCI 355 Digital Logic
+Keywords to Mirror
+	•	Backend, API design, REST, database schema, query optimization, auth, real-time, server-side, RLS, row-level security, multi-tenant, CI/CD, security infrastructure, payment processing
+	•	Python, Django, PostgreSQL, Supabase, SQL, Node.js
+	•	System design, architecture, scalability, latency, reliability, performance
+	•	Data modelling, migrations, indexing, security, role-based access control
+Summary to Use
+Backend-focused full-stack developer with strong systems fundamentals (OS, Networks, Architecture — all A+). Built production REST APIs in Django/DRF and designed PostgreSQL schemas with RLS policies in Supabase for multi-tenant SaaS systems. 4 years of professional experience across Canada and India.
+
+
+
+TYPE C — Startup Generalist / First Engineer   |   Seed/Series A, YC companies, founding team
+Lead With
+	•	A&A agent channel (self-initiated, AI tooling, real business)
+	•	NACL CRM (proposed internally, got buy-in — internal sales)
+	•	Business background: A&A Exports (proposals, strategy, 70% win rate, revenue growth)
+	•	Fast learner: picked up Next.js + Supabase + Django simultaneously for real client work
+Keywords to Mirror
+	•	Scrappy, fast, ownership, autonomy, 0-to-1, founder mindset, generalist
+	•	Move fast, ship, iterate, customer obsessed, wear many hats
+	•	AI, automation, agent, LLM, product sense, business impact, revenue, Playwright, GitHub Actions, Stripe, multi-tenant SaaS, full-stack
+	•	Early-stage, small team, high ownership, ambiguous, self-directed
+Summary to Use
+Entrepreneurial full-stack engineer who builds real products with real users. Proposed and shipped a CRM for a 300+ person org. Currently building an AI agent channel for a family export business. 4 years of experience spanning engineering and business development — comfortable with ambiguity and full ownership.
+
+
+
+TYPE D — Software Developer (General / PNP-target)   |   Mid-size Canadian companies, NOC TEER 1 target
+Lead With
+	•	Software Engineer at Charvar Networks (current, January 2024 — present)
+	•	Full Stack Developer at Input Logic (co-op, May–Sep 2023)
+	•	4.27 GPA, BSc Computer Science with Co-op, VIU
+	•	3 co-op terms completed — strongest signal of employer validation
+Keywords to Mirror
+	•	Software developer, software engineer, full-stack, agile, SDLC, version control, testing
+	•	JavaScript, Python, SQL, Git, Next.js, REST APIs
+	•	Collaborative, cross-functional, documentation, code review, requirements
+	•	BC-based, available immediately, Canadian work experience
+Summary to Use
+Computer Science graduate (BSc with Co-op, VIU, 4.27 GPA) with 2 years of Canadian professional software development experience. Proficient in full-stack development (Next.js, Supabase, Python/Django). Completed 3 co-op terms with demonstrated delivery in production environments.
+
+
+
+TYPE E — Data / AI / ML Adjacent   |   Companies using data pipelines, analytics, AI tooling
+Lead With
+	•	CSCI 478 Advanced Topics in Data Science — A
+	•	NACL analytics dashboard (board-level reporting, operational data)
+	•	A&A agent channel (AI/LLM integration, automation pipeline)
+	•	MATH 121/122 Calculus, MATH 223 Discrete Math, Linear Algebra (in progress) — all A/A+
+	•	Error diagram parser — algorithmic thinking, mathematical rule derivation
+Keywords to Mirror
+	•	Data pipeline, analytics, dashboard, reporting, insights, automation
+	•	AI, LLM, agent, prompt engineering, integration
+	•	Python, SQL, PostgreSQL, data modelling, APIs
+	•	Quantitative, statistical, mathematical, algorithmic
+Summary to Use
+Full-stack engineer with strong quantitative foundations (Calculus, Discrete Math, Linear Algebra, Data Science — all A/A+) and practical data experience. Built board-level analytics dashboards in production, developed algorithmic parsers using mathematical rules, and currently integrating AI agent tooling into real business workflows.
+
+
+  10. AI PROMPT TEMPLATES — COPY-PASTE READY
+
+Use these exact prompts with Claude or ChatGPT. Paste the full experience bank + job posting + the relevant prompt below.
+
+PROMPT A — Tailoring Resume Bullets   |   Use for every application
+  I am applying for [JOB TITLE] at [COMPANY]. Below is my full experience bank and the job posting.
+
+From the experience bank, select the 4 most relevant bullets for each of my roles that best match this posting. Rewrite each bullet to mirror the posting's exact language and keywords — do not change any facts, numbers, or metrics. Keep all figures exact (95%, 300+, 20%, etc). Output only the final bullets, grouped by role. Do not add anything that isn't in my experience bank.
+
+PROMPT B — Writing the Highlights / Summary Section   |   Top 4 lines of resume
+  Using only the facts in my experience bank, write a 4-bullet 'Highlights of Qualifications' section tailored for [JOB TITLE] at [COMPANY]. Each bullet should be 1 sentence. Prioritise: (1) years of experience + degree, (2) most relevant technical stack match, (3) most impressive metric, (4) a differentiator (business sense, product ownership, or GPA). Use the posting's language. Do not invent anything not in the bank.
+
+PROMPT C — Full Cover Letter   |   For high-priority applications
+  Write a cover letter for [JOB TITLE] at [COMPANY] using only facts from my experience bank. Structure:
+Paragraph 1 (2 sentences): What the company does and what problem this role solves for them — make it specific to them, not me.
+Paragraph 2 (3 sentences): My most relevant project or experience mapped directly to their problem. Use specific metrics.
+Paragraph 3 (3 bullets): Three proof points from the bank that match their top 3 requirements.
+Paragraph 4 (1 sentence): Clear ask.
+Tone: direct, confident, no fluff. Do not use the phrases 'I am excited', 'I am passionate', or 'I believe'. Max 300 words.
+
+PROMPT D — LinkedIn / Cold Outreach Message   |   For founder DMs and warm contacts
+  Write a short LinkedIn message (under 75 words) to [NAME], [ROLE] at [COMPANY]. Context: I am a CS new grad graduating March 2026 in BC. I want to ask if they are hiring or if they can refer me. Use one specific thing about their company [INSERT WHAT YOU KNOW]. Pull one relevant credential from my experience bank. End with a simple yes/no question. No flattery. Be direct and human.
+
+PROMPT E — ATS Keyword Gap Check   |   Before submitting any application
+  Compare my tailored resume [PASTE RESUME] against this job posting [PASTE POSTING]. List every keyword or phrase in the posting that does NOT appear in my resume. For each gap: (1) can it be honestly filled using my experience bank? If yes, suggest the exact bullet edit. (2) If no, flag it as a true gap. Do not suggest adding anything that isn't true.
+
+
+  11. OUTREACH MESSAGE TEMPLATES
+
+Fill in [BRACKETS]. These are starting points — personalise the [SPECIFIC THING] every time. Generic messages get ignored.
+
+TEMPLATE 1 — Warm Contact (Someone You Actually Know)   |   Previous colleagues, classmates, professors
+  Subject: Quick question + congrats on [COMPANY/ROLE]
+
+Hey [NAME], hope you're doing well. I've been following what [COMPANY] has been building — [ONE SPECIFIC THING you noticed about their product/growth].
+
+I'm graduating from VIU in March with my CS degree and starting to explore full-time roles. Given your experience at [COMPANY], would you be open to a 15-min call? I'd love to hear how the team is structured and if there are any openings I should know about.
+
+No pressure at all if timing is off.
+
+Abbay
+
+TEMPLATE 2 — Founder / CTO Cold Outreach   |   Seed/Series A startups — LinkedIn DM
+  Hi [NAME] — I've been following [COMPANY] for a while. [ONE SPECIFIC OBSERVATION about their product, a recent launch, or a problem they solve].
+
+I'm a full-stack engineer (Next.js + Supabase) graduating in BC in March. I just shipped a CRM for a 300-person org from scratch — 95% satisfaction. Are you scaling the team?
+
+[YOUR NAME]
+
+TEMPLATE 3 — LinkedIn Recruiter / HR Message   |   When applying through portals
+  Hi [NAME] — I just applied for the [ROLE] position at [COMPANY]. I wanted to flag my application directly since I think the fit is strong: I've spent the last year building a full-stack CRM in Next.js + Supabase for a 300+ person org (95% satisfaction), and your stack / the problems you're solving in [SPECIFIC AREA] are very similar to what I've been working on.
+
+Happy to share more or answer any questions directly. Thank you.
+
+[YOUR NAME]
+
+TEMPLATE 4 — Professor / VIU Alumni Referral Ask   |   Academic network
+  Hi [PROF NAME], I hope the semester is going well. I'm graduating in March and starting my full-time job search — targeting software developer roles in BC that qualify for the PNP.
+
+I really valued your [COURSE NAME] course — [ONE GENUINE THING you learned or found interesting]. I wanted to reach out because I've heard you have connections in [INDUSTRY/COMPANY TYPE]. If there's anyone you think would be worth talking to, I would genuinely appreciate the introduction.
+
+I've attached my resume. Thank you for any guidance you can offer.
+
+Abhay
+
+TEMPLATE 5 — Follow-Up (No Response After 7 Days)   |   One follow-up only
+  Hi [NAME] — just following up on my message from last week. Totally understand if timing isn't right. I'm still very interested in [COMPANY/ROLE] — let me know if there's a better time or a better person to talk to.
+
+[YOUR NAME]
+
+
+  12. COVER LETTER FRAMEWORK — ALL ROLE TYPES
+
+Use this structure every time. Fill in [BRACKETS] from your experience bank. Max 300 words total. Never start a sentence with 'I' — reorder if needed.
+
+Paragraph 1 — THEM (not you) — 2 sentences
+[COMPANY] is [what they do + specific problem they solve]. The [JOB TITLE] role sits at the core of [the specific challenge this role addresses — infer from JD].
+
+Paragraph 2 — YOUR BEST MATCHING STORY — 3 sentences
+Most recently: [NACL CRM story or Input Logic story mapped to their specific problem]. [What you built + tech stack]. [The outcome with metric].
+
+Paragraph 3 — 3 PROOF POINTS — bullets
+• [Most relevant technical match from bank]
+• [Most relevant soft skill / process match from bank]
+• [GPA or co-op or differentiator — whichever fits best]
+
+Paragraph 4 — THE ASK — 1 sentence
+I would welcome the chance to speak further — I can be reached at abhayparasharr@gmail.com.
+
+Words to NEVER Use in a Cover Letter
+	•	passionate, excited, thrilled, honoured, humbled
+	•	I believe I would be a great fit
+	•	I am a quick learner (show it instead — VIU social app learning 4 stacks)
+	•	team player, hard worker, detail-oriented (everyone says this — show with examples)
+	•	To whom it may concern (always find the hiring manager name or use Dear Hiring Team)
+
+
+  13. ADDITIONAL STAR INTERVIEW STORIES
+
+STAR #5: Handling Failure or Setback   |   Use for: 'Tell me about a time things didn't go as planned'
+SITUATION
+During the NACL CRM build, an early round of user testing revealed that a significant portion of the interface design I had built didn't match how employees actually did their daily work — the workflow assumptions in my design were wrong.
+TASK
+Fix the UX without delaying the project timeline, and prevent this from happening again in future build cycles.
+ACTION
+Paused feature development for one sprint, went back to 6 employees for structured workflow interviews, rebuilt the affected screens, and introduced a lightweight UX review checkpoint into my build process going forward.
+RESULT
+The revised design cleared the next testing round with high satisfaction. The checkpoint became standard practice — it's part of why the final product hit 95% satisfaction. The setback cost 1 week but saved months of post-launch fixes.
+
+STAR #6: Working With Non-Technical Stakeholders   |   Use for: 'Tell me about communicating technical work to non-technical people'
+SITUATION
+NACL board members needed to approve the CRM build and later use the analytics dashboard — but had no technical background and were skeptical of replacing a system they were used to.
+TASK
+Get board buy-in for the project AND build something they could actually use without training.
+ACTION
+Translated all technical proposals into business outcome language (cost saved, time reduced, decision quality). For the analytics dashboard, ran a session where board members walked through real scenarios they faced — then built the dashboard to answer those exact questions, not generic metrics.
+RESULT
+Project approved. Board members actively use the dashboard to make operational decisions — this was the 'wow' moment that drove the 95% satisfaction score. Several board members specifically called out the analytics as the biggest improvement over the old system.
+
+STAR #7: Learning Something New Fast   |   Use for: 'Tell me about a time you had to learn quickly'
+SITUATION
+When I joined Input Logic for my co-op, the solo R&D project required Next.js for frontend and Django/DRF for backend — I had not used Django or DRF professionally before. The project had a real client deadline.
+TASK
+Get productive in Django/DRF fast enough to deliver a working, client-ready product within the co-op term.
+ACTION
+Spent the first week doing a concentrated self-directed sprint on DRF documentation and open-source examples while simultaneously scoping the parsing problem. Built a small throwaway prototype first to validate I understood the framework before touching client code.
+RESULT
+Delivered the full parser — Next.js frontend + Django/DRF backend — with a 90% satisfactory rating. The project reduced client setup time by 20%. This is the same approach I used to learn Next.js and Supabase for the NACL project months later.
+
+STAR #8: Disagreement or Pushback   |   Use for: 'Tell me about a time you disagreed with a decision'
+SITUATION
+During the NACL CRM project, there was pressure from one part of the stakeholder group to replicate the Power Apps interface closely — essentially a like-for-like rebuild — rather than rethinking the workflows.
+TASK
+Navigate the disagreement without losing the project, while building something that would actually solve the underlying problems rather than just migrate the old system's flaws.
+ACTION
+Documented specifically which Power Apps limitations were causing the most pain (with employee quotes from testing). Proposed a side-by-side comparison: the like-for-like approach vs. a workflow-first approach. Let the data from user interviews make the case rather than my opinion.
+RESULT
+The workflow-first approach was approved. The analytics dashboard — which wouldn't have existed in a like-for-like rebuild — became the most praised feature. 95% satisfaction vs. the old system's known frustrations.
+
+
+  14. PNP & IMMIGRATION REFERENCE — BC TECH PILOT
+
+This section is for your reference only — not for resumes. Know this before every offer conversation.
+
+What You Need for BC PNP
+	•	NOC TEER Category: 0, 1, 2, or 3 — Software developers are NOC 21232 (TEER 1) ✓
+	•	Wage threshold: must meet or exceed the BC median wage for that NOC (~$38–45/hr for software developer — verify current rate at WorkBC before each offer)
+	•	Full-time: minimum 30 hours/week
+	•	Must have a valid job offer from a BC employer (or qualifying Canadian employer)
+	•	PGWP: graduate from VIU (eligible DLI) → apply for PGWP after convocation → length tied to program length (5-year degree = 3-year PGWP maximum)
+What to Check on Every Offer
+	•	Is the company registered in BC? (BC Business Registry)
+	•	Does the wage meet the current NOC median? (check WorkBC at offer time)
+	•	Is the role clearly described as 'software developer' or equivalent TEER 1 NOC?
+	•	Is it full-time permanent (not contract)? Contract roles are harder for PNP
+	•	Ask HR directly: 'Does the company support LMIA or PNP applications for international hires?' — ask after verbal offer, before signing
+Roles That Qualify (NOC TEER 1)
+	•	Software Developer / Software Engineer — NOC 21232 ✓
+	•	Web Developer — NOC 21233 ✓
+	•	Database Analyst — NOC 21223 ✓
+	•	Business Systems Analyst — NOC 21221 ✓
+	•	Data Scientist / Data Engineer — NOC 21211 ✓
+Roles That Do NOT Qualify — Avoid
+	•	QA Tester (TEER 2 — lower wage threshold, still OK but verify)
+	•	IT Support / Help Desk (TEER 2/3 — lower threshold)
+	•	Any body-shop consulting firm that 'places' you — unclear employer of record
+	•	Contract / temp positions — much harder to use for PNP
+Timeline Reality
+	•	Graduate March 2026 → convocation April/May 2026 → apply PGWP immediately after
+	•	PGWP processing: 2–16 weeks (apply before current study permit expires)
+	•	BC PNP: can apply once you have 12 months of qualifying work experience
+	•	You can work on your study permit after graduation while PGWP is processing (check current IRCC rules)
+	•	Charvar Networks job does NOT qualify for PNP — noted, correct to be looking for qualifying role
+
+  15. ASSETS STILL TO BUILD — PRIORITISED
+
+ASSET
+WHY IT MATTERS
+STATUS / WHEN
+Fix CRM resume bullets (NACL)
+Your #1 asset — currently undersells. Must be done tonight.
+Do tonight — 30 min
+Experience bank (this doc)
+Foundation for all tailoring. Complete.
+Done ✓
+2 tailored resume versions
+Full-stack/product + general SWE ATS format
+Weekend 1
+GitHub: CRM README + architecture
+Any hiring manager who Googles you needs to see this
+Weekend 1–2
+Personal portfolio site (Next.js + Vercel)
+Public proof of your stack. Use your own tech.
+Weekend 3–4
+Contacts tracking sheet
+Name / company / action / date — never lose track
+Start of Week 2
+Application tracker
+Date / company / status / follow-up date
+Start of Week 2
+LinkedIn headline update
+'CS New Grad | Full-Stack Eng | Next.js + Supabase'
+This week
+LinkedIn Open to Work (recruiter only)
+Invisible to public, visible to recruiters
+This week
+GitHub contribution activity
+Commit regularly — green squares matter to engineers who check
+Ongoing
+
