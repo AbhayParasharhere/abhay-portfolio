@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import FadeIn from './FadeIn';
 
 const EXPERIENCES = [
   {
@@ -59,15 +61,18 @@ export default function Experience() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section className="max-w-4xl mx-auto px-6 lg:px-12 py-16">
-      <div className="flex items-center gap-4 mb-12">
-        <h2 className="text-3xl font-display text-white">04. Experience</h2>
-        <div className="h-px bg-slate-800 flex-grow max-w-xs"></div>
-      </div>
+    <section id="experience" className="max-w-4xl mx-auto px-6 lg:px-12 py-16">
+      <FadeIn>
+        <div className="flex items-center gap-4 mb-12">
+          <h2 className="text-3xl font-display text-white">04. Experience</h2>
+          <div className="h-px bg-slate-800 flex-grow max-w-xs"></div>
+        </div>
+      </FadeIn>
 
       <div className="flex flex-col md:flex-row gap-8 lg:gap-12">
         {/* Left Tab Navigation */}
-        <div className="flex overflow-x-auto md:flex-col md:w-48 xl:w-56 shrink-0 border-b md:border-b-0 md:border-l border-slate-800 scrollbar-hide">
+        <FadeIn delay={0.1}>
+          <div className="flex overflow-x-auto md:flex-col md:w-48 xl:w-56 shrink-0 border-b md:border-b-0 md:border-l border-slate-800 scrollbar-hide">
           {EXPERIENCES.map((exp, idx) => (
             <button
               key={idx}
@@ -75,33 +80,44 @@ export default function Experience() {
               className={`
                 text-left px-4 py-4 text-sm font-mono whitespace-nowrap transition-all duration-200 border-b-2 md:border-b-0 md:border-l-2 -mb-[1px] md:-mb-0 md:-ml-[1px]
                 ${activeTab === idx 
-                  ? 'border-teal text-teal bg-teal/5' 
-                  : 'border-transparent text-slate-500 hover:text-slate-300 hover:bg-slate-800/30'
+                  ? 'border-teal text-teal bg-teal/10 font-medium' 
+                  : 'border-transparent text-slate-400 hover:text-slate-200 hover:bg-slate-800/40'
                 }
               `}
             >
               {exp.company}
             </button>
           ))}
-        </div>
+          </div>
+        </FadeIn>
 
         {/* Right Content Panel */}
         <div className="flex-grow min-h-[300px]">
-          <h3 className="text-xl font-display text-white mb-2">
-            {EXPERIENCES[activeTab].role} <span className="text-teal">@ {EXPERIENCES[activeTab].company}</span>
-          </h3>
-          <p className="text-sm font-mono text-slate-500 mb-8">
-            {EXPERIENCES[activeTab].period}
-          </p>
-          
-          <ul className="space-y-6">
-            {EXPERIENCES[activeTab].bullets.map((bullet, idx) => (
-              <li key={idx} className="flex gap-4 items-start text-slate-300 leading-relaxed text-sm lg:text-base">
-                <span className="text-teal mt-1 shadow-teal drop-shadow-sm">▹</span>
-                <span>{bullet}</span>
-              </li>
-            ))}
-          </ul>
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeTab}
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -20 }}
+              transition={{ duration: 0.4, ease: "easeOut" }}
+            >
+              <h3 className="text-xl font-display text-white mb-2">
+                {EXPERIENCES[activeTab].role} <span className="text-teal">@ {EXPERIENCES[activeTab].company}</span>
+              </h3>
+              <p className="text-sm font-mono text-slate-400 mb-8">
+                {EXPERIENCES[activeTab].period}
+              </p>
+              
+              <ul className="space-y-6">
+                {EXPERIENCES[activeTab].bullets.map((bullet, idx) => (
+                  <li key={idx} className="flex gap-4 items-start text-slate-300 leading-relaxed text-sm lg:text-base">
+                    <span className="text-teal mt-1 drop-shadow-[0_0_8px_rgba(32,201,151,0.5)]">▹</span>
+                    <span>{bullet}</span>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          </AnimatePresence>
         </div>
       </div>
     </section>

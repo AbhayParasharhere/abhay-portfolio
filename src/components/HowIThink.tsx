@@ -17,7 +17,7 @@ const TAKES = [
 
 export default function HowIThink() {
   return (
-    <section className="max-w-4xl mx-auto px-6 lg:px-12 py-16">
+    <section id="how-i-think" className="max-w-4xl mx-auto px-6 lg:px-12 py-16">
       <div className="flex items-center gap-4 mb-16">
         <h2 className="text-3xl font-display text-white">05. How I Think</h2>
         <div className="h-px bg-slate-800 flex-grow max-w-xs"></div>

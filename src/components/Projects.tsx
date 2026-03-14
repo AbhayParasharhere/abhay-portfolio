@@ -12,7 +12,7 @@ const FEATURED_PROJECTS = [
     stack: ["Next.js", "Django/DRF", "Python", "REST API"],
     githubUrl: "https://github.com/AbhayParasharhere",
     liveUrl: null, // Internal tool
-    image: null, // Internal tool, needs placeholder
+    image: "/erd.webp", // New custom ERD graphic
   },
   {
     title: "Broker Training & Client Management Platform",
@@ -75,7 +75,7 @@ const NOTEWORTHY_PROJECTS = [
 
 export default function Projects() {
   return (
-    <section className="max-w-5xl mx-auto px-6 lg:px-12 py-12 lg:py-16 mb-16 relative">
+    <section id="projects" className="max-w-5xl mx-auto px-6 lg:px-12 py-12 lg:py-16 mb-16 relative">
       
       <div className="flex items-center gap-4 mb-16 relative z-10">
         <h2 className="text-3xl font-display text-white">03. Work</h2>
@@ -87,13 +87,13 @@ export default function Projects() {
         {FEATURED_PROJECTS.map((project, idx) => {
           const isOdd = idx % 2 !== 0;
           return (
-            <div key={idx} className="relative grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-4 items-center">
+            <div key={idx} className="relative grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-4 items-center group/project [perspective:1000px]">
               
               {/* Card Image / Placeholder */}
-              <div className={`w-full aspect-video md:aspect-[16/10] bg-slate-900 border border-slate-800 rounded-xl relative group overflow-hidden flex flex-col items-center justify-center md:col-span-7 ${isOdd ? 'md:col-start-6' : 'md:col-start-1'} md:row-start-1 z-0 shadow-2xl`}>
-                 <div className="absolute inset-0 bg-teal/20 group-hover:bg-transparent transition-colors duration-500 z-10 mix-blend-multiply pointer-events-none"></div>
+              <div className={`w-full aspect-video md:aspect-[16/10] bg-slate-900 border border-slate-800 rounded-xl relative overflow-hidden flex flex-col items-center justify-center md:col-span-7 ${isOdd ? 'md:col-start-6' : 'md:col-start-1'} md:row-start-1 z-0 shadow-2xl transition-all duration-700 ease-out [transform-style:preserve-3d] group-hover/project:[transform:rotateY(${isOdd ? '-2deg' : '2deg'})_rotateX(2deg)_scale(1.02)] group-hover/project:shadow-[0_20px_50px_rgba(0,0,0,0.5)] group-hover/project:border-slate-700`}>
+                 <div className="absolute inset-0 bg-teal/20 group-hover/project:bg-transparent transition-colors duration-500 z-10 mix-blend-multiply pointer-events-none"></div>
                  
-                 {project.image ? (
+                 {project.image && (
                    <>
                      {/* Browser Chrome for live projects */}
                      <div className="absolute top-0 left-0 w-full h-8 bg-[#0F172A] border-b border-slate-800/80 flex items-center px-4 gap-2 z-20">
@@ -106,36 +106,17 @@ export default function Projects() {
                          src={project.image}
                          alt={project.title}
                          fill
-                         className="object-cover object-top opacity-80 group-hover:opacity-100 transition-all duration-500 group-hover:scale-105"
+                         className={`object-cover object-top opacity-80 group-hover/project:opacity-100 transition-all duration-700 ${project.title === "Interactive ERD Diagram Tool" ? "mix-blend-screen brightness-90 contrast-125 saturate-50" : ""}`}
                        />
+                       
+                       {/* Client Logo Blur overlay for Training Portal */}
+                       {project.title === "Broker Training & Client Management Platform" && (
+                         <div className="absolute top-10 left-6 w-56 h-16 bg-[#0F172A] backdrop-blur-xl rounded-md z-30 flex items-center justify-center border border-slate-800">
+                           <span className="text-[10px] text-slate-500 font-mono tracking-widest uppercase opacity-80">Client Redacted</span>
+                         </div>
+                       )}
                      </div>
                    </>
-                 ) : (
-                   <div className="flex flex-col items-center justify-center w-full h-full text-slate-700 bg-[#0B1120]">
-                     {/* SVG ERD Diagram Placeholder */}
-                     <svg viewBox="0 0 400 300" className="w-full h-full opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500" fill="none" stroke="currentColor">
-                       {/* Table 1 */}
-                       <rect x="60" y="80" width="100" height="120" rx="6" fill="#0F172A" stroke="#334155" strokeWidth="2" />
-                       <rect x="60" y="80" width="100" height="34" rx="6" fill="#1E293B" stroke="#334155" strokeWidth="2" />
-                       <text x="72" y="102" fill="#94A3B8" fontSize="12" fontFamily="monospace">users</text>
-                       <text x="72" y="130" fill="#20C997" fontSize="11" fontFamily="monospace">id (PK)</text>
-                       <text x="72" y="150" fill="#64748B" fontSize="11" fontFamily="monospace">email</text>
-                       <text x="72" y="170" fill="#64748B" fontSize="11" fontFamily="monospace">role_id</text>
-                       <path d="M60 185h100" stroke="#334155" strokeWidth="1" />
-                       <circle cx="160" cy="125" r="5" fill="#20C997" />
-
-                       {/* Table 2 */}
-                       <rect x="250" y="130" width="100" height="100" rx="6" fill="#0F172A" stroke="#334155" strokeWidth="2" />
-                       <rect x="250" y="130" width="100" height="34" rx="6" fill="#1E293B" stroke="#334155" strokeWidth="2" />
-                       <text x="262" y="152" fill="#94A3B8" fontSize="12" fontFamily="monospace">posts</text>
-                       <text x="262" y="180" fill="#20C997" fontSize="11" fontFamily="monospace">id (PK)</text>
-                       <text x="262" y="200" fill="#64748B" fontSize="11" fontFamily="monospace">user_id (FK)</text>
-                       <circle cx="250" cy="195" r="5" fill="#64748B" />
-
-                       {/* Connection Curve */}
-                       <path d="M165 125 C 210 125, 205 195, 245 195" stroke="#20C997" strokeWidth="2.5" fill="none" strokeDasharray="4 4" className="opacity-80 group-hover:animate-pulse" />
-                     </svg>
-                   </div>
                  )}
               </div>
 
@@ -185,7 +166,7 @@ export default function Projects() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
         {NOTEWORTHY_PROJECTS.map((project, idx) => (
-          <div key={idx} className="bg-slate-800/30 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6 hover:-translate-y-2 hover:bg-slate-800/60 hover:shadow-[0_10px_30px_rgba(32,201,151,0.1)] transition-all duration-300 flex flex-col h-full group">
+          <div key={idx} className="bg-slate-800/40 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6 hover:-translate-y-1 hover:border-teal/30 hover:bg-slate-800 hover:shadow-[0_4px_20px_rgba(32,201,151,0.1)] transition-all duration-300 flex flex-col h-full group">
             <div className="flex justify-between items-center mb-6">
               <Folder className="w-10 h-10 text-teal stroke-1 group-hover:scale-110 transition-transform duration-300" />
               <Link href="https://github.com/AbhayParasharhere" target="_blank" className="text-slate-400 hover:text-teal transition-colors">

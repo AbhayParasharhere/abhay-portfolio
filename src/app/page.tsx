@@ -14,11 +14,11 @@ export default function Home() {
       <FadeIn><Hero /></FadeIn>
       <FadeIn delay={0.1}><About /></FadeIn>
       <FadeIn delay={0.1}><CaseStudy /></FadeIn>
-      <FadeIn delay={0.1}><Projects /></FadeIn>
       <FadeIn delay={0.1}><Experience /></FadeIn>
+      <FadeIn delay={0.1}><Projects /></FadeIn>
       <FadeIn delay={0.1}><HowIThink /></FadeIn>
-      <FadeIn delay={0.1}><Chatbot /></FadeIn>
-      <FadeIn delay={0.1}><Contact /></FadeIn>
+      <Chatbot />
+      <Contact />
     </main>
   );
 }
