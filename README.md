@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# abhayparashar.com
 
-## Getting Started
+Personal portfolio site. Built with Next.js 15, Tailwind CSS, and Framer Motion. Deployed on Vercel at [abhayparashar.com](https://abhayparashar.com).
 
-First, run the development server:
+---
+
+## What's inside
+
+- **Hero** — Intro, availability status, social proof bar
+- **About** — Background, photo, currently building
+- **CRM Case Study** — Full narrative on PowerCompass (problem → decision → build → outcome), with screenshots
+- **Experience** — Tabbed timeline of 5 roles (Charvar Networks, Input Logic, VIU Help Desk, GDSC, A&A Exports)
+- **Work** — 3 featured project cards + noteworthy projects grid
+- **How I Think** — 3 takes on how I approach engineering
+- **Contact** — CTA, social links, resume download
+- **AI Chatbot** — Floating widget trained on a full experience bank via Gemini 2.5 Flash API. Answers questions about my background, projects, and availability
+
+## Stack
+
+| Layer | Choice |
+|-------|--------|
+| Framework | Next.js 15 (App Router) |
+| Styling | Tailwind CSS |
+| Animations | Framer Motion |
+| AI Chatbot | Google Gemini 2.5 Flash |
+| Fonts | Outfit + DM Sans (Google Fonts) |
+| Deployment | Vercel |
+| Domain | Cloudflare → abhayparashar.com |
+
+## Running locally
+
+```bash
+git clone https://github.com/AbhayParasharhere/abhay-portfolio.git
+cd abhay-portfolio
+npm install
+```
+
+Create a `.env.local` file in the root:
+
+```env
+GEMINI_API_KEY=your_key_here
+```
+
+Then:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Chatbot
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The `/api/chat` route connects to the Gemini API using a system prompt built on an experience bank document (`experience_bank.txt`). It has:
 
-## Learn More
+- 15 message rolling rate limit per session
+- 500 character input cap
+- Low temperature to prevent hallucination
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Code is open source — take inspiration, but don't clone the copy or design wholesale to pass off as your own.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built by [Abhay Parashar](https://abhayparashar.com)
